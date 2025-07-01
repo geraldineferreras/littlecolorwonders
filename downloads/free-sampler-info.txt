@@ -1,0 +1,36 @@
+# Downloads Directory
+
+This directory contains downloadable files for your customers.
+
+## Current Files:
+- `free-sampler.pdf` - The free lead magnet offered on the landing page
+
+## File Requirements:
+
+### Free Sampler Pack (`free-sampler.pdf`):
+- Should contain 3-5 sample pages from your products
+- Include a variety: coloring page, maze, alphabet tracing
+- Add your branding/watermark
+- Keep file size under 5MB for fast download
+- High-quality print resolution (300 DPI)
+
+### Paid Products:
+- Store paid product files securely (consider external service)
+- Use download links with expiration for security
+- Include licensing information in PDFs
+- Provide clear printing instructions
+
+## Security Considerations:
+- The `.htaccess` file protects this directory
+- Consider using a more secure download system for paid products
+- Track download analytics if needed
+- Monitor for unauthorized access
+
+## Content Ideas for Free Sampler:
+1. One alphabet coloring page (like "A is for Apple")
+2. One simple maze appropriate for toddlers
+3. One tracing activity (letters or shapes)
+4. Brief instruction page for parents
+5. Preview/catalog of your full products
+
+Replace this file with your actual `free-sampler.pdf` when ready! 

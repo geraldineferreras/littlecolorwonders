@@ -1,0 +1,19 @@
+{
+  "name": "little-color-wonders",
+  "version": "1.0.0",
+  "description": "Little Color Wonders - Digital printable activities for kids",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'No build process needed for static site'"
+  },
+  "keywords": [
+    "printables",
+    "kids",
+    "education",
+    "coloring",
+    "activities"
+  ],
+  "author": "Little Color Wonders",
+  "license": "MIT"
+} 

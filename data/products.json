@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": "alphabet-animals",
+      "title": "Alphabet Animals Edition",
+      "description": "26 adorable animal coloring pages teaching A-Z, plus matching games, tracing sheets, and fun facts about each animal.",
+      "price": 4.99,
+      "pages": "35+",
+      "age_range": "3-6 years",
+      "image": "assets/images/alphabet-animals.png",
+      "emoji": "🦁",
+      "category": "alphabet",
+      "features": [
+        "A-Z animal coloring pages",
+        "Letter tracing worksheets", 
+        "Animal matching games",
+        "Fun animal facts",
+        "Educational activities"
+      ]
+    },
+    {
+      "id": "jungle-adventure",
+      "title": "Jungle Adventure Pack",
+      "description": "Explore the jungle with coloring pages, mazes, connect-the-dots, and educational activities about rainforest animals.",
+      "price": 4.99,
+      "pages": "40+",
+      "age_range": "4-8 years",
+      "image": "assets/images/jungle-adventure.png", 
+      "emoji": "🌿",
+      "category": "themed",
+      "features": [
+        "Jungle animal coloring pages",
+        "Rainforest mazes",
+        "Connect-the-dots puzzles",
+        "Educational activities",
+        "Animal habitat learning"
+      ]
+    },
+    {
+      "id": "space-explorer",
+      "title": "Space Explorer Pack",
+      "description": "Blast off to learning with space-themed coloring pages, planet facts, astronaut activities, and cosmic puzzles.",
+      "price": 4.99,
+      "pages": "30+",
+      "age_range": "5-8 years",
+      "image": "assets/images/space-explorer.png",
+      "emoji": "🚀",
+      "category": "themed",
+      "features": [
+        "Space coloring pages",
+        "Planet fact sheets",
+        "Astronaut activities",
+        "Cosmic puzzles",
+        "Solar system learning"
+      ]
+    },
+    {
+      "id": "ocean-friends",
+      "title": "Ocean Friends Pack", 
+      "description": "Dive into ocean adventures with sea creatures, underwater mazes, counting activities, and marine life education.",
+      "price": 4.99,
+      "pages": "35+",
+      "age_range": "3-7 years",
+      "image": "assets/images/ocean-friends.png",
+      "emoji": "🐋",
+      "category": "themed",
+      "features": [
+        "Sea creature coloring",
+        "Underwater mazes",
+        "Counting activities",
+        "Marine life facts",
+        "Ocean conservation"
+      ]
+    },
+    {
+      "id": "farm-friends",
+      "title": "Farm Friends Pack",
+      "description": "Learn about farm life with barnyard animals, counting games, matching activities, and fun farming facts.",
+      "price": 4.99,
+      "pages": "32+", 
+      "age_range": "2-6 years",
+      "image": "assets/images/farm-friends.png",
+      "emoji": "🐄",
+      "category": "themed",
+      "features": [
+        "Farm animal coloring",
+        "Counting activities",
+        "Matching games",
+        "Farming facts",
+        "Rural life learning"
+      ]
+    },
+    {
+      "id": "parent-planner",
+      "title": "Ultimate Parent Planner",
+      "description": "Stay organized with meal planners, activity schedules, milestone trackers, and family calendars designed for busy parents.",
+      "price": 7.99,
+      "pages": "50+",
+      "age_range": "Adult",
+      "image": "assets/images/parent-planner.png",
+      "emoji": "📅",
+      "category": "planner",
+      "features": [
+        "Meal planning templates",
+        "Activity schedules",
+        "Milestone trackers",
+        "Family calendars",
+        "Organization tools"
+      ]
+    }
+  ],
+  "bundles": [
+    {
+      "id": "complete-bundle",
+      "title": "Complete Learning Bundle",
+      "description": "All 6 products for one amazing price - perfect for teachers, homeschool families, or daycare centers",
+      "regular_price": 29.95,
+      "bundle_price": 19.99,
+      "savings": 9.96,
+      "includes": [
+        "alphabet-animals",
+        "jungle-adventure", 
+        "space-explorer",
+        "ocean-friends",
+        "farm-friends",
+        "parent-planner"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "My 3-year-old loved the jungle pages. Perfect rainy day activity!",
+      "author": "@MomLifeJess",
+      "product": "jungle-adventure"
+    },
+    {
+      "id": 2,
+      "text": "Such a time-saver for my preschool class! The kids are engaged for hours.",
+      "author": "Teacher Anne", 
+      "product": "alphabet-animals"
+    },
+    {
+      "id": 3,
+      "text": "High-quality designs that actually help with learning. My homeschool go-to!",
+      "author": "Sarah, Homeschool Mom",
+      "product": "complete-bundle"
+    }
+  ]
+} 
