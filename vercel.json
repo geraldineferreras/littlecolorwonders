@@ -1,26 +1,16 @@
 {
-  "builds": [
+  "rewrites": [
     {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
+      "source": "/products",
+      "destination": "/products.html"
     },
     {
-      "src": "/products",
-      "dest": "/products.html"
+      "source": "/contact",
+      "destination": "/contact.html"
     },
     {
-      "src": "/contact",
-      "dest": "/contact.html"
-    },
-    {
-      "src": "/thank-you",
-      "dest": "/thank-you.html"
+      "source": "/thank-you",
+      "destination": "/thank-you.html"
     }
   ],
   "headers": [
@@ -41,5 +31,7 @@
         }
       ]
     }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 } 
