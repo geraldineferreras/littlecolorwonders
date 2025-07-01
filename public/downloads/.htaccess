@@ -1,0 +1,33 @@
+# Protect downloads directory
+# Only allow access to PDF files and only from authorized sources
+
+<Files "*.pdf">
+    # Allow PDF access
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<FilesMatch ".*">
+    # Deny access to all other files
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "\.pdf$">
+    # Allow PDF files
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Optional: Add hotlink protection
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^https?://.*littlecolorwonders\.com [NC]
+RewriteCond %{HTTP_REFERER} !^https?://.*localhost [NC]
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|gif)$ [NC]
+RewriteRule \.(pdf)$ - [F,L]
+
+# Set correct MIME type for PDFs
+<FilesMatch "\.pdf$">
+    Header set Content-Type "application/pdf"
+    Header set Content-Disposition "attachment"
+</FilesMatch> 

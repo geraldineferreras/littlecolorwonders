@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="p:domain_verify" content="3a15f5519bd19c5d3f96a8bb08fb855e"/>
+    <title>Contact Us | Little Color Wonders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Little Color Wonders</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="hero" style="padding: 6rem 0 4rem; margin-top: 80px;">
+        <div class="container">
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h1 style="font-size: 3rem; margin-bottom: 1rem;">Get in Touch</h1>
+                <p style="font-size: 1.3rem; color: #666;">
+                    We'd love to hear from you! Whether you have questions, suggestions, or just want to say hello.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+                
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="font-size: 2rem; margin-bottom: 2rem; color: #333;">Send us a Message</h2>
+                    <form id="contact-form" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Your Name</label>
+                            <input type="text" name="name" class="form-input" style="width: 100%; border-radius: 10px;" required>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Email Address</label>
+                            <input type="email" name="email" class="form-input" style="width: 100%; border-radius: 10px;" required>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Subject</label>
+                            <select name="subject" class="form-input" style="width: 100%; border-radius: 10px;" required>
+                                <option value="">Select a topic...</option>
+                                <option value="product-question">Product Question</option>
+                                <option value="technical-support">Technical Support</option>
+                                <option value="bulk-order">Bulk Order Inquiry</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Message</label>
+                            <textarea name="message" class="form-input" style="width: 100%; border-radius: 10px; min-height: 120px; resize: vertical;" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        <button type="submit" class="cta-button" style="width: 100%;">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 style="font-size: 2rem; margin-bottom: 2rem; color: #333;">Contact Information</h2>
+                    
+                    <div style="background: linear-gradient(135deg, #fff8f0 0%, #f0f8ff 100%); padding: 2rem; border-radius: 20px; margin-bottom: 2rem;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                            <div style="width: 50px; height: 50px; background: #ff6b9d; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                <i class="fas fa-envelope" style="color: white; font-size: 1.2rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: #333; margin-bottom: 0.25rem;">Email</h3>
+                                <p style="color: #666;"><a href="mailto:hello@littlecolorwonders.com" style="color: #ff6b9d;">hello@littlecolorwonders.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                            <div style="width: 50px; height: 50px; background: #87ceeb; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                <i class="fas fa-clock" style="color: white; font-size: 1.2rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: #333; margin-bottom: 0.25rem;">Response Time</h3>
+                                <p style="color: #666;">Within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: center;">
+                            <div style="width: 50px; height: 50px; background: #90EE90; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                                <i class="fas fa-heart" style="color: white; font-size: 1.2rem;"></i>
+                            </div>
+                            <div>
+                                <h3 style="color: #333; margin-bottom: 0.25rem;">Support</h3>
+                                <p style="color: #666;">Friendly & helpful</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Quick Links -->
+                    <div style="background: white; border: 2px solid #f0f0f0; padding: 2rem; border-radius: 20px;">
+                        <h3 style="color: #333; margin-bottom: 1rem;">Quick Answers</h3>
+                        <p style="color: #666; margin-bottom: 1.5rem;">Looking for something specific? Check these popular topics:</p>
+                        <ul style="list-style: none; color: #666;">
+                            <li style="margin-bottom: 0.5rem;">
+                                <a href="index.html#faq" style="color: #ff6b9d; text-decoration: none;">• How to download and print files</a>
+                            </li>
+                            <li style="margin-bottom: 0.5rem;">
+                                <a href="index.html#faq" style="color: #ff6b9d; text-decoration: none;">• Classroom usage license</a>
+                            </li>
+                            <li style="margin-bottom: 0.5rem;">
+                                <a href="index.html#faq" style="color: #ff6b9d; text-decoration: none;">• File formats and compatibility</a>
+                            </li>
+                            <li style="margin-bottom: 0.5rem;">
+                                <a href="#" style="color: #ff6b9d; text-decoration: none;">• Refund policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section style="padding: 4rem 0; background: linear-gradient(135deg, #fff8f0 0%, #f0fff0 100%);">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 2rem; color: #333;">Follow Our Journey</h2>
+                <p style="color: #666; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Stay connected for the latest updates, free resources, and behind-the-scenes glimpses of our creative process!
+                </p>
+                <div class="social-icons" style="margin-bottom: 0;">
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Pinterest">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Etsy">
+                        <i class="fab fa-etsy"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Contact Us</h3>
+                    <p><a href="mailto:hello@littlecolorwonders.com" style="color: #ccc;">hello@littlecolorwonders.com</a></p>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <p><a href="#" style="color: #ccc;">Privacy Policy</a> • <a href="#" style="color: #ccc;">Terms of Use</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Little Color Wonders. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Contact form handling
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const submitBtn = this.querySelector('button[type="submit"]');
+            
+            // Show loading state
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<span class="loading"></span> Sending...';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission
+            setTimeout(() => {
+                alert('Thank you for your message! We\'ll get back to you within 24 hours.');
+                this.reset();
+                
+                // Reset button
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
+    </script>
+</body>
+</html> 

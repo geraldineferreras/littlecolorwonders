@@ -1,0 +1,41 @@
+# Image Assets Directory
+
+This directory should contain your product images and visual assets.
+
+## Required Images:
+
+### Hero Section:
+- `hero-banner.png` - Main product bundle preview (recommended: 800x600px)
+- `logo.png` - Your business logo (recommended: 200x80px)
+- `favicon.ico` - Website favicon (16x16, 32x32px)
+
+### Product Mockups:
+- `product-mockup1.png` - Featured product preview (400x300px)
+- `alphabet-animals.png` - Alphabet Animals Edition preview
+- `jungle-adventure.png` - Jungle Adventure Pack preview  
+- `space-explorer.png` - Space Explorer Pack preview
+- `ocean-friends.png` - Ocean Friends Pack preview
+- `farm-friends.png` - Farm Friends Pack preview
+- `parent-planner.png` - Parent Planner preview
+
+### Thumbnails:
+- `thumb-coloring.png` - Coloring activity thumbnail (60x60px)
+- `thumb-alphabet.png` - Alphabet activity thumbnail (60x60px)
+- `thumb-maze.png` - Maze activity thumbnail (60x60px)
+- `thumb-animals.png` - Animal activity thumbnail (60x60px)
+
+## Image Specifications:
+- Format: PNG or JPG
+- Quality: High resolution for crisp printing
+- Optimization: Compress for web to maintain fast loading
+- Style: Bright, colorful, child-friendly designs
+- Background: Transparent PNGs where applicable
+
+## Tips:
+1. Use consistent styling across all product images
+2. Include actual samples of your printable content
+3. Make images appealing to your target audience (parents/teachers)
+4. Consider creating mockups showing printed pages in use
+5. Optimize file sizes for web performance
+
+Replace this file with your actual images when ready to launch! 

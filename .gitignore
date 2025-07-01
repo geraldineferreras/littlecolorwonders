@@ -39,4 +39,8 @@ Thumbs.db
 
 # Build outputs (if any)
 dist/
-build/ 
+build/
+
+# Generated public directory (built from source files)
+# Comment out the line below if you want to commit the public directory
+# public/ 
