@@ -4,8 +4,9 @@
   "description": "Little Color Wonders - Digital printable activities for kids",
   "main": "index.html",
   "scripts": {
-    "start": "python -m http.server 8000",
-    "build": "echo 'No build process needed for static site'"
+    "start": "echo 'Static site - open index.html'",
+    "build": "echo 'No build needed - static HTML site'",
+    "dev": "echo 'Static site ready to serve'"
   },
   "keywords": [
     "printables",
